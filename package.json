@@ -1,6 +1,6 @@
 {
   "name": "logger",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "semantic-release": "semantic-release"
   },
   "private": true,
   "dependencies": {
@@ -42,7 +43,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~10.12.0",
     "codelyzer": "~4.5.0",
-    "cz-conventional-changelog": "2.1.0",
+    "cz-conventional-changelog": "^2.1.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~3.1.4",
@@ -51,6 +52,7 @@
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.4.0",
+    "semantic-release": "^15.13.3",
     "ts-node": "~8.0.0",
     "tslint": "~5.12.0",
     "typescript": "~3.1.6"
@@ -60,5 +62,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macrog/logger.git"
   }
 }
