@@ -7,7 +7,7 @@ branches:
 before_script:
   npm install -g ionic cordova
 script:
-  ionic cordova build browser — prod
+  ionic build --prod --service-worker
 deploy:
   provider: pages
   skip-cleanup: true
