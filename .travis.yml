@@ -1,6 +1,6 @@
 --- 
 before_script: "— npm install -g ionic cordova"
-branches: "only — master"
+branches: "only — master - gh-pages"
 deploy: 
   github-token: $GITHUB_TOKEN
   keep-history: true
